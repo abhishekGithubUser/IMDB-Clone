@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>IMDB Clone-AT</title>
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon">
+    <!-- Font waesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+<body>
+    
+    <!-- Outer Container -->
+    <div class="outer-container">
+        <!-- logo container -->
+        <div class="logo">
+            <div class="container nav-bar">
+                <a href="../home.html" id="logo"><img src="../logo.png" alt=""></a>
+                <a href="../fav/favPage.html" id="fav"><i class="fa-solid fa-heart fa-beat-fade fa-xl"></i> Favou<span>rites</span></a>
+            </div>
+        </div>
+        <!-- end of logo -->
+
+        <!-- Result container -->
+        <div class="container">
+            <div class="result-container">
+                <div class="result-grid" id="result-grid">
+
+                   <!-- All data related to movie will be appended here -->
+                
+                </div>
+                <button id="addToFav">Add to Favourites</button>
+            </div>
+        </div>
+        <!-- End of result container -->
+
+    </div>
+
+    <!-- JS file -->
+    <script src="moviePage.js"></script>
+</body>
+</html>
